@@ -8,9 +8,9 @@
       clc_server:
         name: test
         template: ubuntu-14-64
-        location: UC1
-        count: 1
-        group: 'Default Group'
+        location: NY1
+        count: 3
+        group: 'test'
       register: clc
     - name: debug
       debug: var=clc.server_ids
